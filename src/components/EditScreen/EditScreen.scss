@@ -1,0 +1,35 @@
+.edit-project-header {
+    width: 100%;
+    background-color: #fff;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 4px 16px;
+    box-shadow: 0px -2px 0px 0px #D9D9D9 inset;
+
+    h1 {
+        font-family: 'Inter', sans-serif;
+        font-weight: 600;
+        font-size: 1.4rem;
+        margin: 10px;
+    }
+
+    .back-btn{
+        font-size: 12px;
+        margin-right: 24px;
+
+        svg{
+            font-size: 16px;
+            margin-right: 8px;
+        }
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    @media (min-width: 768px) {
+        padding: 8px 48px;
+    }
+}

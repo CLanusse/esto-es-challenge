@@ -1,0 +1,19 @@
+body {
+    background-color: #e5e5e5;
+}
+
+.project-btn {
+    background-color: #F5222D;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+
+    &:hover {
+        background-color: darken($color: #F5222D, $amount: 15%);
+    }
+
+    @media (min-width: 768px) {
+        padding: 8px 16px;
+    }
+}
