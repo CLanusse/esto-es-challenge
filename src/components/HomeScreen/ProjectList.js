@@ -58,7 +58,7 @@ export const ProjectList = () => {
     // effect para el buscador
     useEffect(()=>{
         query.length > 2 ? handleSearch(query) : setData(projects)
-    }, [query])
+    }, [query, projects])
 
     return (
         <>
